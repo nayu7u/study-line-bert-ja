@@ -1,0 +1,8 @@
+services:
+  pytorch:
+    build:
+      context: .
+    volumes:
+      - ./:/workspace
+    command: /bin/bash
+    tty: true
